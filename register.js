@@ -21,31 +21,43 @@
         }
     }
 
-    const name = document.getElementById('name');
-    const birthday = document.getElementById('birthday');
-    const cidade = document.getElementById('cidade');
-    const uf = document.getElementById('uf');
-    const cell = document.getElementById('cell');
+//    const name = document.getElementById('name');
+//    const birthday = document.getElementById('birthday');
+//    const cidade = document.getElementById('cidade');
+//    const uf = document.getElementById('uf');
+//    const cell = document.getElementById('cell');
     const email = document.getElementById('email');
     const pass = document.getElementById('pass1');
     const btnregister = document.getElementById('btnregister');
+    const cadastroform = document.getElementById('formcadastro');
+    const csucesso = document.getElementById('csucesso');
 
     btnregister.addEventListener('click', e => {
-        const txtname = name.value;
-        const txtbirthday = birthday.value;
-        const txtcidade = cidade.value;
-        const txtuf = uf.value;
-        const txtcell = cell.value;
+//        const txtname = name.value;
+//        const txtbirthday = birthday.value;
+//        const txtcidade = cidade.value;
+//        const txtuf = uf.value;
+//        const txtcell = cell.value;
         const txtemail = email.value;
         const txtpass = pass.value;
-        const auth = firebase.auth();
-        const promise = auth().createUserWithEmailAndPassword(txtemail, txtpassword).catch(function (error) {
-           
-        });
-        promise.cath(e => console.log(e.message));
 
+        const auth = firebase.auth()
+
+        const promise = auth.createUserWithEmailAndPassword(txtemail, txtpass);
+
+        csucesso.classList.remove('hidden=""');
+        cadastroform.classList.add('hidden=""');
     });
-        
-        
+
+    firebase.auth().onAuthStateChanged(firebaseUser => {
+        if (firebaseUser) {
+
+        } else {
+            csucesso.classList.add('hide');
+            cadastroform.classList.remove('hide');
+        }
+    });
+
+
 
 }());
