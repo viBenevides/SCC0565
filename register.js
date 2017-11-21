@@ -42,19 +42,18 @@
         const txtpass = pass.value;
 
         const auth = firebase.auth()
-
         const promise = auth.createUserWithEmailAndPassword(txtemail, txtpass);
-
-        csucesso.classList.remove('hidden=""');
-        cadastroform.classList.add('hidden=""');
+        
+        
     });
 
     firebase.auth().onAuthStateChanged(firebaseUser => {
         if (firebaseUser) {
+            window.alert("Cadastro já efetuado!");
+            window.location.replace("index.html");
 
         } else {
-            csucesso.classList.add('hide');
-            cadastroform.classList.remove('hide');
+          
         }
     });
 

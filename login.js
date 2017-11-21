@@ -15,6 +15,7 @@
     const pass = document.getElementById('pass');
     const btnlogin = document.getElementById('btnlogin');
     const btnlogout = document.getElementById('btnlogout');
+    const formlogin = document.getElementById('formlogin');
     const cadastroform = document.getElementById('formcadastro');
     const csucesso = document.getElementById('csucesso');
     btnlogin.addEventListener('click', e => {
@@ -24,27 +25,19 @@
 
         const promise = auth.signInWithEmailAndPassword(txtemail, txtpass);
 
-
-
     });
 
-//    btnlogout.addEventListener('click', e => {
-//        firebase.auth().signOut();
-//    });
+    btnlogout.addEventListener('click', e => {
+        firebase.auth().signOut();
+    });
 
     firebase.auth().onAuthStateChanged(firebaseUser => {
-        if (firebaseUser) {
-            var re = /apples/gi;
-            var str = 'login';
-            var newstr = str.replace(re, 'logout');
-            window.alert("Voce esta logado!");
-            window.location.replace("index.html");
-
-            csucesso.classList.remove('hide');
-            cadastroform.classList.add('hide');
+        if (firebaseUser) {            
+            formlogin.style.visibility = 'hidden';      // Hide
+            btnlogout.style.visibility = 'visible';     // Show
         } else {
-            csucesso.classList.add('hide');
-            cadastroform.classList.remove('hide');
+            btnlogout.style.visibility = 'hidden';      // Hide
+            formlogin.style.visibility = 'visible';     // Show
         }
     });
 
