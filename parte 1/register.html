@@ -24,7 +24,7 @@
     }
   </style>
 
-
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -71,94 +71,83 @@
 
     <!-- Heading Row -->
     <div class="row my-4">
-
       <div class="col-lg-8">
-            <div>
+        <div>
 
-                <h3>Rapidas</h3>
-
-                <a href="receitas/miojo.html">
-                    <img class="img-fluid rounded" src="images/miojo.jpg" alt="Foto do miojo">
-                    <h4>Miojo de Microondas</h4>
-                </a>
-                <p class="card-text">Um delicioso miojo pronto em minutos</p><br>
-                <p><b>Autor:</b> José Silva</p><br>
-                <p><b>Avaliação</b></p><br><br>
-
-                <a href="receitas/ovofrito.html">
-                    <img class="img-fluid rounded" src="images/ovofrito.jpg" alt="Foto do Ovo Frito">
-                    <h4>Ovo Frito</h4>
-                </a>
-                <p class="card-text">Aprenda a melhor forma de se preparar ovo frito</p><br>
-                <p><b>Autor:</b> Manoel Guedes</p><br>
-                <p><b>Avaliação</b></p><br><br>
-
-                <a href="receitas/pipocadepanela.html">
-                    <img class="img-fluid rounded" src="images/pipocadepanela.jpg" alt="Foto da Pipoca de Panela">
-                    <h4>Pipoca de Panela</h4>
-                </a>
-                <p class="card-text">Tão gostosa quanto a pipoca de microondas, só que muito mais barata</p><br>
-                <p><b>Autor:</b> Carla Magno</p><br>
-                <p><b>Avaliação</b></p><br><br>
+          <h1>Registro</h1>
+          <form class="form-horizontal" action='' method="POST">
+            <fieldset>
+              <br/>
 
 
+              <label for="nome">Nome Completo:  </label><br>
+              <input style="text-transform:uppercase" name="nome" type="text" placeholder="Nome" title="O nome deve conter apenas letras" required/>
+              <br/>
+              <label for="nascimento">Data nascimento:</label><br>
+              <input name="nascimento" type="date" id="datepicker" placeholder="xx/xx/xxxx">
+              <br/>
+              <label for="cidade">Cidade:</label><br>
+              <input style="text-transform:uppercase" name="cidade" type="text" class="uppercase" placeholder="Cidade" required/>
+              <br/>
+              <label for="estado">Estado:</label><br>
 
-                <h3>BBB</h3>
+              <select name="estado">
+										<option value="AC">AC</option>
+										<option value="AL">AL</option>
+										<option value="AP">AP</option>
+										<option value="AM">AM</option>
+										<option value="BA">BA</option>
+										<option value="CE">CE</option>
+										<option value="DF">DF</option>
+										<option value="ES">ES</option>
+										<option value="GO">GO</option>
+										<option value="MA">MA</option>
+										<option value="MT">MT</option>
+										<option value="MS">MS</option>
+										<option value="MG">MG</option>
+										<option value="PA">PA</option>
+										<option value="PB">PB</option>
+										<option value="PR">PR</option>
+										<option value="PE">PE</option>
+										<option value="PI">PI</option>
+										<option value="RJ">RJ</option>
+										<option value="RN">RN</option>
+										<option value="RS">RS</option>
+										<option value="RO">RO</option>
+										<option value="RR">RR</option>
+										<option value="SC">SC</option>
+										<option value="SP">SP</option>
+										<option value="SE">SE</option>
+										<option value="TO">TO</option>
 
-                <a href="receitas/minipizza.html">
-                    <img class="img-fluid rounded" src="images/minipizza.jpg" alt="Foto de mini pizza">
-                    <h4>Mini Pizza</h4>
-                </a>
-                <p class="card-text">Uma pizza, só que mini</p><br>
-                <p><b>Autor:</b> Ana Maria</p><br>
-                <p><b>Avaliação</b></p><br><br>
+							  </select>
+              <br/>
+              <label for="telefone">Telefone:</label><br>
+              <input type="tel" name="telefone" maxlength="15" placeholder="(xx) xxxxx-xxxx">
+              <br>
+              <label for="email">Email: </label><br>
+              <input style="text-transform:lowercase" name="email" type="email" required placeholder="email@email.com">
 
-                <a href="receitas/estrogonofedefrango.html">
-                    <img class="img-fluid rounded" src="images/estrogonofedefrango.jpg" alt="Foto do Estrogonofe de Frango">
-                    <h4>Estrogonofe de Frango</h4>
-                </a>
-                <p class="card-text">Estrogonofe fácil de fazer e super em conta</p><br>
-                <p><b>Autor:</b> Marcos Nakamura</p><br>
-                <p><b>Avaliação</b></p><br><br>
+              <br>
 
-                <a href="receitas/saladadebatata.html">
-                    <img class="img-fluid rounded" src="images/saladadebatata.jpg" alt="Foto da Salada de Batata">
-                    <h4>Salada de Batata</h4>
-                </a>
-                <p class="card-text">Deliciosa salada de batata com ótimo rendimento</p><br>
-                <p><b>Autor:</b> Leandro Oliveira</p><br>
-                <p><b>Avaliação</b></p><br><br>
+              <label for="senha"> Senha: </label><br>
+              <input placeholder="Senha" name="senha" type="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^A-Za-z0-9]).{8,}$" title="Senha deve possuir pelo menos 1 letra minúscula, 1 letra maiúscula, 1 número e 1 caracter especial e ter pelo menos 8 caracteres."
+                onkeyup="Lcadstro()" required/>
+              <br>
+              <label for="senha">Confime a Senha: </label><br>
+              <input name="senha" type="password" required placeholder="Confirme a senha" />
+              <br>
 
-                <h3>Larica</h3>
+              <label class="labelmessage" id="resp" required style="display:none;"> Senhas incorretas! </label>
+              <br><br>
+              <div class="g-recaptcha" data-sitekey="6LdtsDIUAAAAABWrnX53cqwLPd6Et0NCGhNV1lhI"></div>
+              <br><br>
+              <button id="btn_cad_login" class="btn btn-lg btn-primary btn-block" type="submit">Cadastrar</button>
+            </fieldset>
 
-                <a href="receitas/sorvete.html">
-                    <img class="img-fluid rounded" src="images/sorvete.jpg" alt="Foto do sorvete de danoninho">
-                    <h4>Sorvete de Daononinho</h4>
-                </a>
-                <p class="card-text">Sabor de infância no palito</p><br>
-                <p><b>Autor:</b> Ana Maria</p><br>
-                <p><b>Avaliação</b></p><br><br>
-
-                <a href="receitas/bolodecenoura.html">
-                    <img class="img-fluid rounded" src="images/bolodecenoura.jpg" alt="Foto do Bolo de Cenoura">
-                    <h4>Bolo de Cenoura</h4>
-                </a>
-                <p class="card-text">Bolo de cenoura com cobertura de chocolate prático e fácil</p><br>
-                <p><b>Autor:</b> Luana Pereira</p><br>
-                <p><b>Avaliação</b></p><br><br>
-
-                <a href="receitas/brigadeiro.html">
-                    <img class="img-fluid rounded" src="images/brigadeiro.jpg" alt="Foto do Brigadeiro">
-                    <h4>Brigadeiro</h4>
-                </a>
-                <p class="card-text">Receita tradicional de brigadeiro</p><br>
-                <p><b>Autor:</b> Natália Lopez</p><br>
-                <p><b>Avaliação</b></p><br><br>
-                                
-            </div>
-
+          </form>
+        </div>
       </div>
-
       <!-- /.col-lg-8 -->
       <div class="col-lg-4">
         <div class="card my-4">
@@ -174,20 +163,10 @@
         </div>
 
         <div>
-          <a href="miojo.html"><h1>Receita mais votada</h1>
+          <a href="receitas/miojo.html"><h1>Receita mais votada</h1>
                         <h2>Miojo de Microondas</h2>
                         <img class="img-fluid rounded" src="images/miojo.jpg" alt="Foto do miojo">
                       </a>
-        </div>
-        <div>
-          <h1>Faça já seu cadastro!</h1>
-          <p>Registre agora para poder adicionar, votar e comentar em suas receitas favoritas!</p>
-          <a class="btn btn-primary btn-lg" href="register.html">Registre-se agora!</a>
-          <br>
-          <h1><br>Envie sua Receita</h1>
-
-          <p>Envia agora sua receita</p>
-          <a class="btn btn-primary btn-lg" href="newrecipe.html">Fazer nova receita</a>
         </div>
       </div>
       <!-- /.col-md-4 -->
@@ -208,7 +187,7 @@
 
           </div>
           <div class="card-footer">
-            <a href="miojo.html" class="btn btn-primary">Saiba mais</a>
+            <a href="receitas/miojo.html" class="btn btn-primary">Saiba mais</a>
           </div>
         </div>
       </div>
@@ -221,7 +200,7 @@
             <img class="img-fluid rounded" src="images/minipizza.jpg" alt="Foto de mini pizza">
           </div>
           <div class="card-footer">
-            <a href="minipizza.html" class="btn btn-primary">Saiba mais</a>
+            <a href="receitas/minipizza.html" class="btn btn-primary">Saiba mais</a>
           </div>
         </div>
       </div>
@@ -230,11 +209,11 @@
         <div class="card h-100">
           <div class="card-body">
             <h2 class="card-title">Sorvete de danoninho</h2>
-            <p class="card-text">Sabor de infância no plaito</p>
+            <p class="card-text">Sabor de infância no palito</p>
             <img class="img-fluid rounded" src="images/sorvete.jpg" alt="Foto do sorvete de danoninho">
           </div>
           <div class="card-footer">
-            <a href="sorvete.html" class="btn btn-primary">Saiba mais</a>
+            <a href="receitas/sorvete.html" class="btn btn-primary">Saiba mais</a>
           </div>
         </div>
       </div>
@@ -263,9 +242,7 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="nav/vendor/jquery/jquery.min.js"></script>
-  <script src="nav/vendor/popper/popper.min.js"></script>
-  <script src="nav/vendor/bootstrap/js/bootstrap.min.js"></script>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
