@@ -75,80 +75,82 @@
             <div class="row my-4">
                 <div class="col-lg-8">
                     <div>
+                        <div id="csucesso"><h2 hidden="" >Cadastro feito com sucesso!!</h2></div>
+                        <div id="formcadastro"><h2>Registro</h2>
+                            <form class="form-horizontal">
+                                <fieldset>
+                                    <br/>
 
-                        <h1>Registro</h1>
-                        <form class="form-horizontal" >
-                            <fieldset>
-                                <br/>
 
+                                    <label for="nome">Nome Completo:  </label><br>
+                                    <input id="name" style="text-transform:uppercase" name="nome" type="text" placeholder="Nome" title="O nome deve conter apenas letras" required/>
+                                    <br/>
+                                    <label for="nascimento">Data nascimento:</label><br>
+                                    <input id="bithday" name="nascimento" required="" type="date" id="datepicker" placeholder="xx/xx/xxxx" min="1899-00-00" max="2004-11-21">
+                                    <br/>
+                                    <label for="cidade">Cidade:</label><br>
+                                    <input id="cidade" style="text-transform:uppercase" name="cidade" type="text" class="uppercase" placeholder="Cidade" required/>
+                                    <br/>
+                                    <label for="estado">Estado:</label><br>
 
-                                <label for="nome">Nome Completo:  </label><br>
-                                <input id="name" style="text-transform:uppercase" name="nome" type="text" placeholder="Nome" title="O nome deve conter apenas letras" required/>
-                                <br/>
-                                <label for="nascimento">Data nascimento:</label><br>
-                                <input id="bithday" name="nascimento" required="" type="date" id="datepicker" placeholder="xx/xx/xxxx" min="1899-00-00" max="2004-11-21">
-                                <br/>
-                                <label for="cidade">Cidade:</label><br>
-                                <input id="cidade" style="text-transform:uppercase" name="cidade" type="text" class="uppercase" placeholder="Cidade" required/>
-                                <br/>
-                                <label for="estado">Estado:</label><br>
+                                    <select id="uf" name="estado">
+                                        <option value="AC">AC</option>
+                                        <option value="AL">AL</option>
+                                        <option value="AP">AP</option>
+                                        <option value="AM">AM</option>
+                                        <option value="BA">BA</option>
+                                        <option value="CE">CE</option>
+                                        <option value="DF">DF</option>
+                                        <option value="ES">ES</option>
+                                        <option value="GO">GO</option>
+                                        <option value="MA">MA</option>
+                                        <option value="MT">MT</option>
+                                        <option value="MS">MS</option>
+                                        <option value="MG">MG</option>
+                                        <option value="PA">PA</option>
+                                        <option value="PB">PB</option>
+                                        <option value="PR">PR</option>
+                                        <option value="PE">PE</option>
+                                        <option value="PI">PI</option>
+                                        <option value="RJ">RJ</option>
+                                        <option value="RN">RN</option>
+                                        <option value="RS">RS</option>
+                                        <option value="RO">RO</option>
+                                        <option value="RR">RR</option>
+                                        <option value="SC">SC</option>
+                                        <option value="SP">SP</option>
+                                        <option value="SE">SE</option>
+                                        <option value="TO">TO</option>
 
-                                <select id="uf" name="estado">
-                                    <option value="AC">AC</option>
-                                    <option value="AL">AL</option>
-                                    <option value="AP">AP</option>
-                                    <option value="AM">AM</option>
-                                    <option value="BA">BA</option>
-                                    <option value="CE">CE</option>
-                                    <option value="DF">DF</option>
-                                    <option value="ES">ES</option>
-                                    <option value="GO">GO</option>
-                                    <option value="MA">MA</option>
-                                    <option value="MT">MT</option>
-                                    <option value="MS">MS</option>
-                                    <option value="MG">MG</option>
-                                    <option value="PA">PA</option>
-                                    <option value="PB">PB</option>
-                                    <option value="PR">PR</option>
-                                    <option value="PE">PE</option>
-                                    <option value="PI">PI</option>
-                                    <option value="RJ">RJ</option>
-                                    <option value="RN">RN</option>
-                                    <option value="RS">RS</option>
-                                    <option value="RO">RO</option>
-                                    <option value="RR">RR</option>
-                                    <option value="SC">SC</option>
-                                    <option value="SP">SP</option>
-                                    <option value="SE">SE</option>
-                                    <option value="TO">TO</option>
+                                    </select>
+                                    <br/>
+                                    <label for="telefone">Telefone:</label><br>
+                                    <input id="cell" type="tel" name="telefone" maxlength="15" placeholder="(xx) xxxxx-xxxx">
+                                    <br>
+                                    <label for="email">Email: </label><br>
+                                    <input id="email" style="text-transform:lowercase" name="email" type="email" required placeholder="email@email.com">
 
-                                </select>
-                                <br/>
-                                <label for="telefone">Telefone:</label><br>
-                                <input id="cell" type="tel" name="telefone" maxlength="15" placeholder="(xx) xxxxx-xxxx">
-                                <br>
-                                <label for="email">Email: </label><br>
-                                <input id="email" style="text-transform:lowercase" name="email" type="email" required placeholder="email@email.com">
+                                    <br>
+                                    <script type="text/javascript" src="passcheck.js"></script>
+                                    <label for="pass1"> Senha: </label><br>
+                                    <input placeholder="Senha" name="pass1" id="pass1" type="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^A-Za-z0-9]).{8,}$" title="Senha deve possuir pelo menos 1 letra minúscula, 1 letra maiúscula, 1 número e 1 caracter especial e ter pelo menos 8 caracteres."
+                                           required="" onkeyup="checkPass(); return false;"/>
 
-                                <br>
-                                <script type="text/javascript" src="passcheck.js"></script>
-                                <label for="pass1"> Senha: </label><br>
-                                <input placeholder="Senha" name="pass1" id="pass1" type="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^A-Za-z0-9]).{8,}$" title="Senha deve possuir pelo menos 1 letra minúscula, 1 letra maiúscula, 1 número e 1 caracter especial e ter pelo menos 8 caracteres."
-                                       required="" onkeyup="checkPass(); return false;"/>
+                                    <br>
+                                    <label for="pass2">Confime a Senha: </label><br>
+                                    <input placeholder="Confirme a Senha" type="password" name="pass2" id="pass2" onkeyup="checkPass(); return false;">
+                                    <span id="confirmMessage" class="confirmMessage"></span><br>
 
-                                <br>
-                                <label for="pass2">Confime a Senha: </label><br>
-                                <input placeholder="Confirme a Senha" type="password" name="pass2" id="pass2" onkeyup="checkPass(); return false;">
-                                <span id="confirmMessage" class="confirmMessage"></span><br>
+                                    <label class="labelmessage" id="resp" style="display:none;"> Senhas incorretas! </label>
+                                    <br><br>
+                                    <div class="g-recaptcha" data-sitekey="6LdtsDIUAAAAABWrnX53cqwLPd6Et0NCGhNV1lhI"></div>
+                                    <br><br>
+                                    
+                                </fieldset>
 
-                                <label class="labelmessage" id="resp" style="display:none;"> Senhas incorretas! </label>
-                                <br><br>
-                                <div class="g-recaptcha" data-sitekey="6LdtsDIUAAAAABWrnX53cqwLPd6Et0NCGhNV1lhI"></div>
-                                <br><br>
-                                <a href="index.html"><button id="btnregister" class="btn btn-lg btn-primary btn-block">Cadastrar</button></a>
-                            </fieldset>
-
-                        </form>
+                            </form>
+                            <button id="btnregister" class="btn btn-lg btn-primary btn-block">Cadastrar</button>
+                        </div>
 
                     </div>
                 </div>
@@ -248,16 +250,16 @@
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
         <script>
-                                    // Initialize Firebase
-                                    var config = {
-                                        apiKey: "AIzaSyBZu2Oyh9qGFNjUbsmH7brAR1kUoUGQZxE",
-                                        authDomain: "scc565-34877.firebaseapp.com",
-                                        databaseURL: "https://scc565-34877.firebaseio.com",
-                                        projectId: "scc565-34877",
-                                        storageBucket: "",
-                                        messagingSenderId: "537837358114"
-                                    };
-                                    firebase.initializeApp(config);
+                                        // Initialize Firebase
+                                        var config = {
+                                            apiKey: "AIzaSyBZu2Oyh9qGFNjUbsmH7brAR1kUoUGQZxE",
+                                            authDomain: "scc565-34877.firebaseapp.com",
+                                            databaseURL: "https://scc565-34877.firebaseio.com",
+                                            projectId: "scc565-34877",
+                                            storageBucket: "",
+                                            messagingSenderId: "537837358114"
+                                        };
+                                        firebase.initializeApp(config);
         </script>
         <script src="register.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
