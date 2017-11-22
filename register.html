@@ -11,7 +11,31 @@
         <!-- Bootstrap CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
+        <script type="text/javascript">
+            /* Máscaras ER */
+            function mascara(o, f) {
+                v_obj = o
+                v_fun = f
+                setTimeout("execmascara()", 1)
+            }
+            function execmascara() {
+                v_obj.value = v_fun(v_obj.value)
+            }
+            function mtel(v) {
+                v = v.replace(/D/g, "");             //Remove tudo o que não é dígito
+                v = v.replace(/^(d{2})(d)/g, "($1) $2"); //Coloca parênteses em volta dos dois primeiros dígitos
+                v = v.replace(/(d)(d{4})$/, "$1-$2");    //Coloca hífen entre o quarto e o quinto dígitos
+                return v;
+            }
+            function id(el) {
+                return document.getElementById(el);
+            }
+            window.onload = function () {
+                id('telefone').onkeypress = function () {
+                    mascara(this, mtel);
+                }
+            }
+        </script>
         <style>
             body {
                 padding-top: 54px;
@@ -124,8 +148,9 @@
 
                                     </select>
                                     <br/>
+
                                     <label for="telefone">Telefone:</label><br>
-                                    <input id="cell" type="tel" name="telefone" maxlength="15" placeholder="(xx) xxxxx-xxxx">
+                                    <input type="text" name="telefone" id="telefone" maxlength="15" placeholder="(xx) xxxxx-xxxx" >
                                     <br>
                                     <label for="email">Email: </label><br>
                                     <input id="email" style="text-transform:lowercase" name="email" type="email" required placeholder="email@email.com">
@@ -145,10 +170,11 @@
                                     <br><br>
                                     <div class="g-recaptcha" data-sitekey="6LdtsDIUAAAAABWrnX53cqwLPd6Et0NCGhNV1lhI"></div>
                                     <br><br>
-                                    <a href="index.html"><button id="btnregister" class="btn btn-lg btn-primary btn-block">Cadastrar</button></a>   
-                                </fieldset>
+                                     </fieldset>
 
                             </form>
+                            <a href="index.html"><button id="btnregister" class="btn btn-lg btn-primary btn-block">Cadastrar</button></a>   
+                               
                         </div>
 
                     </div>
