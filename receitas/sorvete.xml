@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<recipe>
+    <name>Sorvete de Danoninho</name>
+    <autor>Ana Maria</autor>
+    <description>Sabor de infância no palito</description>
+    <recipeCategory>Larica</recipeCategory>
+    <totalTime>3 horas</totalTime>
+    <recipeYield>serve 4 pessoas</recipeYield>
+    <cookingMethod>cogelado</cookingMethod>
+    <nutrition>
+        <calories>400 calorias</calories>
+    </nutrition>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <fooditem>cartela de danoninho</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>8</quantity>
+        <fooditem>palitos</fooditem>
+    </recipeIngredients>
+    <recipeInstructions>
+        Fazer um furo na tampa dos danoninhos e inserir os palitos nos furos.
+        Depois disso é só levar ao congelador por 3 horas e estará pronto.
+    </recipeInstructions>
+</recipe>

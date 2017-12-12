@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<recipe>
+    <name>Salada de Batata</name>
+    <autor>Leandro Oliveira</autor>
+    <description>Deliciosa salada de batata com ótimo rendimento</description>
+    <recipeCategory>BBB</recipeCategory>
+    <totalTime>3 horas</totalTime>
+    <recipeYield>serve 8 pessoas</recipeYield>
+    <cookingMethod>cozido</cookingMethod>
+    <nutrition>
+        <calories>500 calorias</calories>
+    </nutrition>
+    <recipeIngredients>
+        <quantity>2,5</quantity>
+        <unit>kg</unit>
+        <fooditem>batata</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>6</quantity>
+        <fooditem>ovos</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>lata</unit>
+        <fooditem>ervilha</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>lata</unit>
+        <fooditem>milho verde</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>2</quantity>
+        <unit>xícaras</unit>
+        <fooditem>maionese</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>100</quantity>
+        <unit>g</unit>
+        <fooditem>cebolinha</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>100</quantity>
+        <unit>g</unit>
+        <fooditem>salsinha</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <fooditem>cebola</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>2</quantity>
+        <unit>colheres de chá</unit>
+        <fooditem>sal</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>colher de chá</unit>
+        <fooditem>pimenta do reino</fooditem>
+    </recipeIngredients>
+    <recipeInstructions>
+        Descasque e cozinhe as batatas em água por cerca de 20 minutos para que fiquem macias, mas ainda firmes. Escorra e corte em pedaços.
+        Coloque os ovos numa panela, cubra com água e leve ao fogo alto. Assim que ferver, tampe e retire do fogo. Espere 10 minutos e depois descasque e pique os ovos.
+        Pique a cebola, cebolinha e salsinha.
+        Misture todos os ingredientes em um recipiente e deixe gelar por pelo menos 2 horas antes de servir.
+    </recipeInstructions>
+</recipe>

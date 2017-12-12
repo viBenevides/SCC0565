@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<recipe>
+    <name>Bolo de Cenoura</name>
+    <autor>Luana Pereira</autor>
+    <description>Bolo de cenoura com cobertura de chocolate prático e fácil</description>
+    <recipeCategory>Larica</recipeCategory>
+    <totalTime>1 hora</totalTime>
+    <recipeYield>serve 6 pessoas</recipeYield>
+    <cookingMethod>assado</cookingMethod>
+    <nutrition>
+        <calories>700 calorias</calories>
+    </nutrition>
+    <recipeIngredients>
+        <quantity>½</quantity>
+        <unit>xícara de chá</unit>
+        <fooditem>óleo</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>3</quantity>
+        <fooditem>cenouras</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>4</quantity>
+        <fooditem>ovos</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>2 ½</quantity>
+        <unit>xícara de chá</unit>
+        <fooditem>farinha de trigo</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>3</quantity>
+        <unit>xícara de chá</unit>
+        <fooditem>açúcar</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>colher de sopa</unit>
+        <fooditem>fermento em pó</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>colher de sopa</unit>
+        <fooditem>manteiga</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>3</quantity>
+        <unit>colheres de sopa</unit>
+        <fooditem>chocolate em pó</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>xícara de chá</unit>
+        <fooditem>leite</fooditem>
+    </recipeIngredients>
+    <recipeInstructions>
+        Rale as cenouras.
+        Coloque a cenoura, os ovos e o óleo em um liquidificador e depois misture.
+        Acrescente 2 xícaras de açúcar e bata novamente por 5 minutos.
+        Em uma tigela ou batedeira, adicione a farinha de trigo e depois misture novamente.
+        Adicione o fermento e misture lentamente com uma colher
+        Leve para o forno, preaquecido a 180° C, por aproximadamente 40 minutos.
+        Para a cobertura despeje em uma tigela a manteiga, o chocolate em pó, o resto do açúcar e o leite, depois misture.
+        Leve a mistura ao fogo médio e continue misturando até obter uma consistência cremosa, depois despeje a calda por cima do bolo.
+    </recipeInstructions>
+</recipe>

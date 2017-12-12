@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<recipe>
+    <name>Pipoca de panela</name>
+    <autor>Carla Magno</autor>
+    <description>Tão gostosa quanto a pipoca de microondas, só que muito mais barata</description>
+    <recipeCategory>Rapidas</recipeCategory>
+    <totalTime>6 minutos</totalTime>
+    <recipeYield>serve 2 pessoas</recipeYield>
+    <cookingMethod>fritura</cookingMethod>
+    <nutrition>
+        <calories>300 calorias</calories>
+    </nutrition>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>xicara</unit>
+        <fooditem>milho para pipoca</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>3</quantity>
+        <unit>colheres de sopa</unit>
+        <fooditem>oleo</fooditem>
+    </recipeIngredients>
+    <recipeInstructions>
+        Coloque o milho em uma panela alta de forma a cubrir o fundo dela e adicione o óleo, ou manteiga se preferir.
+        Coloque a panela tempada em fogo médio e espere os milhos começarem a estourar.
+        Sacuda a panela algumas vezes para misturar os milhos para que todos estourem e para o fundo não queimar.
+        Retire do fogo quando os estouros começarem a cessar, coloque numa vasilha e salgue a gosto. Coloque também ajinomoto se desejar.
+    </recipeInstructions>
+</recipe>

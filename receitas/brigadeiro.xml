@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<recipe>
+    <name>Brigadeiro</name>
+    <autor>Natália Lopez</autor>
+    <description>Receita tradicional de brigadeiro</description>
+    <recipeCategory>Larica</recipeCategory>
+    <totalTime>15 minutos</totalTime>
+    <recipeYield>serve 3 pessoas</recipeYield>
+    <cookingMethod>cozido</cookingMethod>
+    <nutrition>
+        <calories>450 calorias</calories>
+    </nutrition>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>colher de sopa</unit>
+        <fooditem>manteiga</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>lata</unit>
+        <fooditem>leite condensado</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>4</quantity>
+        <unit>colheres de sopa</unit>
+        <fooditem>chocolate em pó</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>pacote</unit>
+        <fooditem>chocolate granulado</fooditem>
+    </recipeIngredients>
+    <recipeInstructions>
+        Aqueça a panela em fogo médio. Coloque a manteiga seguida do leite consensado na panela.
+        Em seguida acrescente o chocolate em pó e mexa sem parar até que comece a desgrudar do fundo panela.
+        Retire do fogo, espere esfriar um pouco e faça pequenas bolas com a mão passando-as no chocolate granulado.
+    </recipeInstructions>
+</recipe>

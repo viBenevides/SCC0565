@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<recipe>
+    <name>Miojo de Microondas</name>
+    <autor>osé Silva</autor>
+    <description>Um delicioso miojo pronto em minutos</description>
+    <recipeCategory>Rapidas</recipeCategory>
+    <totalTime>5 minutos</totalTime>
+    <recipeYield>serve 1 pessoa</recipeYield>
+    <cookingMethod>cozido</cookingMethod>
+    <nutrition>
+        <calories>369 calorias</calories>
+    </nutrition>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <fooditem>miojo</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1 ½</quantity>
+        <unit>copo</unit>
+        <fooditem>água</fooditem>
+    </recipeIngredients>
+    <recipeInstructions>
+        Levar o miojo com a água ao microondas na potência máxima por 5 minutos, interrompendo no meio do preparo para mexer.
+        Depois é só misturar o tempero e está pronto.
+    </recipeInstructions>
+</recipe>

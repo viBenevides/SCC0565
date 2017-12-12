@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<recipe>
+    <name>Estrogonofe de Frango</name>
+    <autor>Marcos Nakamura</autor>
+    <description>Estrogonofe fácil de fazer e super em conta</description>
+    <recipeCategory>BBB</recipeCategory>
+    <totalTime>50 minutos</totalTime>
+    <recipeYield>serve 4 pessoas</recipeYield>
+    <cookingMethod>cozido</cookingMethod>
+    <nutrition>
+        <calories>400 calorias</calories>
+    </nutrition>
+    <recipeIngredients>
+        <quantity>3</quantity>
+        <fooditem>peitos de frango desossados</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>2</quantity>
+        <fooditem>cebolas</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>colher de sopa</unit>
+        <fooditem>sal</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>lata</unit>
+        <fooditem>molho de tomate</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>3</quantity>
+        <unit>colheres de sopa</unit>
+        <fooditem>catchup</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>colher de sopa</unit>
+        <fooditem>mostarda</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>3</quantity>
+        <unit>colheres de sopa</unit>
+        <fooditem>manteiga</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>lata</unit>
+        <fooditem>creme de leite</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>xícara de café</unit>
+        <fooditem>conhaque</fooditem>
+    </recipeIngredients>
+    <recipeInstructions>
+        Pique o frango em cubos e as cebolas. Refogue a cebola com a manteiga.
+        Em seguida coloque os peitos de frango, deixe refogar até que o frango esteja cozido.
+        Adicione pimenta a gosto, o molho de tomate, o catchup, a mostarda, o sal e conhaque.
+        Deixe ferver por 5 minutos em fogo médio.
+        Após, coloque o creme de leite e desligue imediatamente.
+        Sirva quente acompanhado de arroz branco e batata palha.
+    </recipeInstructions>
+</recipe>

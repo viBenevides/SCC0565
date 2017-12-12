@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<recipe>
+    <name>Mini Pizza</name>
+    <autor>Ana Maria</autor>
+    <description>Uma pizza, só que mini</description>
+    <recipeCategory>BBB</recipeCategory>
+    <totalTime>75 minutos</totalTime>
+    <recipeYield>serve 6 pessoas</recipeYield>
+    <cookingMethod>assado</cookingMethod>
+    <nutrition>
+        <calories>500 calorias</calories>
+    </nutrition>
+    <recipeIngredients>
+        <quantity>200</quantity>
+        <unit>ml</unit>
+        <fooditem>água</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>½</quantity>
+        <unit>kg</unit>
+        <fooditem>farinhas</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>pacote</unit>
+        <fooditem>fermento granulado</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>½</quantity>
+        <unit>xícarade chá</unit>
+        <fooditem>óleo</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>colher de chá</unit>
+        <fooditem>sal</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>colher de chá</unit>
+        <fooditem>açucar</fooditem>
+    </recipeIngredients>
+    <recipeInstructions>
+        Dissolva o fermento na água morna, junte o óleo, o sal e o açúcar.
+        Adicione farinha aos poucos, trabalhando com as mãos, até obter uma massa homogênea.
+        Trabalhe a massa por aproximadamente 15 minutos, até ficar lisa e soltando bolhas de ar.
+        Cubra com um pano e deixe descansar por 40 minutos.
+        Abra a massa e deixe com cerca de 0,5 cm.
+        Corte com um cortador ou use uma tampa redonda pequena.
+        Coloque em assadeira untada.
+        Leve para pré-assar por cerca de 10 minutos.
+        Retire do forno e coloque o recheio que desejar.
+        Leve ao forno por mais 10 minutos, ou até o queijo derreter e a massa ficar completamente assada.
+    </recipeInstructions>
+</recipe>

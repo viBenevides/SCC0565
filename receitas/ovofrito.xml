@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<recipe>
+    <name>Ovo Frito</name>
+    <autor>Manoel Guedes</autor>
+    <description>Aprenda a melhor forma de se preparar ovo frito</description>
+    <recipeCategory>Rapidas</recipeCategory>
+    <totalTime>5 minutos</totalTime>
+    <recipeYield>serve 1 pessoa</recipeYield>
+    <cookingMethod>fritura</cookingMethod>
+    <nutrition>
+        <calories>120 calorias</calories>
+    </nutrition>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <fooditem>ovo</fooditem>
+    </recipeIngredients>
+    <recipeIngredients>
+        <quantity>1</quantity>
+        <unit>colher de sopa</unit>
+        <fooditem>manteiga</fooditem>
+    </recipeIngredients>
+    <recipeInstructions>
+        Derreta a manteiga numa frigideira. Quebre o ovo sobre a frigideira com cuidado para nao quebrar a gema.
+        Frite o ovo até que suas bordas fiquem levemente douradas. Então é só adicionar sala gosto e comer.
+    </recipeInstructions>
+</recipe>
