@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cookbook>
+    <rapidas>
+        <recipe>
+            <name>Miojo de Microondas</name>
+            <autor>José Silva</autor>
+            <description>Um delicioso miojo pronto em minutos</description>
+            <recipeCategory>Rapidas</recipeCategory>
+            <totalTime>5 minutos</totalTime>
+            <recipeYield>serve 1 pessoa</recipeYield>
+            <cookingMethod>cozido</cookingMethod>
+            <nutrition>
+                <calories>369 calorias</calories>
+            </nutrition>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <fooditem>miojo</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1 ½</quantity>
+                <unit>copo</unit>
+                <fooditem>água</fooditem>
+            </recipeIngredients>
+            <recipeInstructions>
+                Levar o miojo com a água ao microondas na potência máxima por 5 minutos, interrompendo no meio do preparo para mexer.
+                Depois é só misturar o tempero e está pronto.
+            </recipeInstructions>
+            <url>receitas/miojo.html</url>
+            <imagepath>images/miojo.jpg</imagepath>
+            <imageurl>images/miojo.jpg</imageurl>
+        </recipe>
+        <recipe>
+            <name>Ovo Frito</name>
+            <autor>Manoel Guedes</autor>
+            <description>Aprenda a melhor forma de se preparar ovo frito</description>
+            <recipeCategory>Rapidas</recipeCategory>
+            <totalTime>5 minutos</totalTime>
+            <recipeYield>serve 1 pessoa</recipeYield>
+            <cookingMethod>fritura</cookingMethod>
+            <nutrition>
+                <calories>120 calorias</calories>
+            </nutrition>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <fooditem>ovo</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>colher de sopa</unit>
+                <fooditem>manteiga</fooditem>
+            </recipeIngredients>
+            <recipeInstructions>
+                Derreta a manteiga numa frigideira. Quebre o ovo sobre a frigideira com cuidado para nao quebrar a gema.
+                Frite o ovo até que suas bordas fiquem levemente douradas. Então é só adicionar sala gosto e comer.
+            </recipeInstructions>
+            <url>receitas/ovofrito.html</url>
+            <imagepath>images/ovofrito.jpg</imagepath>
+            <imageurl>images/ovofrito.jpg</imageurl>
+        </recipe>
+        <recipe>
+            <name>Pipoca de panela</name>
+            <autor>Carla Magno</autor>
+            <description>Tão gostosa quanto a pipoca de microondas, só que muito mais barata</description>
+            <recipeCategory>Rapidas</recipeCategory>
+            <totalTime>6 minutos</totalTime>
+            <recipeYield>serve 2 pessoas</recipeYield>
+            <cookingMethod>fritura</cookingMethod>
+            <nutrition>
+                <calories>300 calorias</calories>
+            </nutrition>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>xicara</unit>
+                <fooditem>milho para pipoca</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>3</quantity>
+                <unit>colheres de sopa</unit>
+                <fooditem>oleo</fooditem>
+            </recipeIngredients>
+            <recipeInstructions>
+                Coloque o milho em uma panela alta de forma a cubrir o fundo dela e adicione o óleo, ou manteiga se preferir.
+                Coloque a panela tempada em fogo médio e espere os milhos começarem a estourar.
+                Sacuda a panela algumas vezes para misturar os <mil></mil>hos para que todos estourem e para o fundo não queimar.
+                Retire do fogo quando os estouros começarem a cessar, coloque numa vasilha e salgue a gosto. Coloque também ajinomoto se desejar.
+            </recipeInstructions>
+            <url>receitas/pipocadepanela.html</url>
+            <imagepath>images/pipocadepanela.jpg</imagepath>
+            <imageurl>images/pipocadepanela.jpg</imageurl>
+        </recipe>
+    </rapidas>
+    <BBB>
+        <recipe>
+            <name>Mini Pizza</name>
+            <autor>Ana Maria</autor>
+            <description>Uma pizza, só que mini</description>
+            <recipeCategory>BBB</recipeCategory>
+            <totalTime>75 minutos</totalTime>
+            <recipeYield>serve 6 pessoas</recipeYield>
+            <cookingMethod>assado</cookingMethod>
+            <nutrition>
+                <calories>500 calorias</calories>
+            </nutrition>
+            <recipeIngredients>
+                <quantity>200</quantity>
+                <unit>ml</unit>
+                <fooditem>água</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>½</quantity>
+                <unit>kg</unit>
+                <fooditem>farinhas</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>pacote</unit>
+                <fooditem>fermento granulado</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>½</quantity>
+                <unit>xícarade chá</unit>
+                <fooditem>óleo</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>colher de chá</unit>
+                <fooditem>sal</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>colher de chá</unit>
+                <fooditem>açucar</fooditem>
+            </recipeIngredients>
+            <recipeInstructions>
+                Dissolva o fermento na água morna, junte o óleo, o sal e o açúcar.
+                Adicione farinha aos poucos, trabalhando com as mãos, até obter uma massa homogênea.
+                Trabalhe a massa por aproximadamente 15 minutos, até ficar lisa e soltando bolhas de ar.
+                Cubra com um pano e deixe descansar por 40 minutos.
+                Abra a massa e deixe com cerca de 0,5 cm.
+                Corte com um cortador ou use uma tampa redonda pequena.
+                Coloque em assadeira untada.
+                Leve para pré-assar por cerca de 10 minutos.
+                Retire do forno e coloque o recheio que desejar.
+                Leve ao forno por mais 10 minutos, ou até o queijo derreter e a massa ficar completamente assada.
+            </recipeInstructions>
+            <url>receitas/minipizza.html</url>
+            <imagepath>images/minipizza.jpg</imagepath>
+            <imageurl>images/minipizza.jpg</imageurl>
+        </recipe>
+        <recipe>
+            <name>Estrogonofe de Frango</name>
+            <autor>Marcos Nakamura</autor>
+            <description>Estrogonofe fácil de fazer e super em conta</description>
+            <recipeCategory>BBB</recipeCategory>
+            <totalTime>50 minutos</totalTime>
+            <recipeYield>serve 4 pessoas</recipeYield>
+            <cookingMethod>cozido</cookingMethod>
+            <nutrition>
+                <calories>400 calorias</calories>
+            </nutrition>
+            <recipeIngredients>
+                <quantity>3</quantity>
+                <fooditem>peitos de frango desossados</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>2</quantity>
+                <fooditem>cebolas</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>colher de sopa</unit>
+                <fooditem>sal</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>lata</unit>
+                <fooditem>molho de tomate</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>3</quantity>
+                <unit>colheres de sopa</unit>
+                <fooditem>catchup</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>colher de sopa</unit>
+                <fooditem>mostarda</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>3</quantity>
+                <unit>colheres de sopa</unit>
+                <fooditem>manteiga</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>lata</unit>
+                <fooditem>creme de leite</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>xícara de café</unit>
+                <fooditem>conhaque</fooditem>
+            </recipeIngredients>
+            <recipeInstructions>
+                Pique o frango em cubos e as cebolas. Refogue a cebola com a manteiga.
+                Em seguida coloque os peitos de frango, deixe refogar até que o frango esteja cozido.
+                Adicione pimenta a gosto, o molho de tomate, o catchup, a mostarda, o sal e conhaque.
+                Deixe ferver por 5 minutos em fogo médio.
+                Após, coloque o creme de leite e desligue imediatamente.
+                Sirva quente acompanhado de arroz branco e batata palha.
+            </recipeInstructions>
+            <url>receitas/estrogonofedefrango.html</url>
+            <imagepath>images/estrogonofedefrango.jpg</imagepath>
+            <imageurl>images/estrogonofedefrango.jpg</imageurl>
+        </recipe>
+        <recipe>
+            <name>Salada de Batata</name>
+            <autor>Leandro Oliveira</autor>
+            <description>Deliciosa salada de batata com ótimo rendimento</description>
+            <recipeCategory>BBB</recipeCategory>
+            <totalTime>3 horas</totalTime>
+            <recipeYield>serve 8 pessoas</recipeYield>
+            <cookingMethod>cozido</cookingMethod>
+            <nutrition>
+                <calories>500 calorias</calories>
+            </nutrition>
+            <recipeIngredients>
+                <quantity>2,5</quantity>
+                <unit>kg</unit>
+                <fooditem>batata</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>6</quantity>
+                <fooditem>ovos</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>lata</unit>
+                <fooditem>ervilha</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>lata</unit>
+                <fooditem>milho verde</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>2</quantity>
+                <unit>xícaras</unit>
+                <fooditem>maionese</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>100</quantity>
+                <unit>g</unit>
+                <fooditem>cebolinha</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>100</quantity>
+                <unit>g</unit>
+                <fooditem>salsinha</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <fooditem>cebola</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>2</quantity>
+                <unit>colheres de chá</unit>
+                <fooditem>sal</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>colher de chá</unit>
+                <fooditem>pimenta do reino</fooditem>
+            </recipeIngredients>
+            <recipeInstructions>
+                Descasque e cozinhe as batatas em água por cerca de 20 minutos para que fiquem macias, mas ainda firmes. Escorra e corte em pedaços.
+                Coloque os ovos numa panela, cubra com água e leve ao fogo alto. Assim que ferver, tampe e retire do fogo. Espere 10 minutos e depois descasque e pique os ovos.
+                Pique a cebola, cebolinha e salsinha.
+                Misture todos os ingredientes em um recipiente e deixe gelar por pelo menos 2 horas antes de servir.
+            </recipeInstructions>
+            <url>receitas/saladadebatata.html</url>
+            <imagepath>images/saladadebatata.jpg</imagepath>
+            <imageurl>images/saladadebatata.jpg</imageurl>
+        </recipe>
+    </BBB>
+    <larica>
+        <recipe>
+            <name>Sorvete de Danoninho</name>
+            <autor>Ana Maria</autor>
+            <description>Sabor de infância no palito</description>
+            <recipeCategory>Larica</recipeCategory>
+            <totalTime>3 horas</totalTime>
+            <recipeYield>serve 4 pessoas</recipeYield>
+            <cookingMethod>cogelado</cookingMethod>
+            <nutrition>
+                <calories>400 calorias</calories>
+            </nutrition>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <fooditem>cartela de danoninho</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>8</quantity>
+                <fooditem>palitos</fooditem>
+            </recipeIngredients>
+            <recipeInstructions>
+                Fazer um furo na tampa dos danoninhos e inserir os palitos nos furos.
+                Depois disso é só levar ao congelador por 3 horas e estará pronto.
+            </recipeInstructions>
+            <url>receitas/sorvete.html</url>
+            <imagepath>images/sorvete.jpg</imagepath>
+            <imageurl>images/sorvete.jpg</imageurl>
+        </recipe>
+        <recipe>
+            <name>Bolo de Cenoura</name>
+            <autor>Luana Pereira</autor>
+            <description>Bolo de cenoura com cobertura de chocolate prático e fácil</description>
+            <recipeCategory>Larica</recipeCategory>
+            <totalTime>1 hora</totalTime>
+            <recipeYield>serve 6 pessoas</recipeYield>
+            <cookingMethod>assado</cookingMethod>
+            <nutrition>
+                <calories>700 calorias</calories>
+            </nutrition>
+            <recipeIngredients>
+                <quantity>½</quantity>
+                <unit>xícara de chá</unit>
+                <fooditem>óleo</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>3</quantity>
+                <fooditem>cenouras</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>4</quantity>
+                <fooditem>ovos</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>2 ½</quantity>
+                <unit>xícara de chá</unit>
+                <fooditem>farinha de trigo</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>3</quantity>
+                <unit>xícara de chá</unit>
+                <fooditem>açúcar</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>colher de sopa</unit>
+                <fooditem>fermento em pó</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>colher de sopa</unit>
+                <fooditem>manteiga</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>3</quantity>
+                <unit>colheres de sopa</unit>
+                <fooditem>chocolate em pó</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>xícara de chá</unit>
+                <fooditem>leite</fooditem>
+            </recipeIngredients>
+            <recipeInstructions>
+                Rale as cenouras.
+                Coloque a cenoura, os ovos e o óleo em um liquidificador e depois misture.
+                Acrescente 2 xícaras de açúcar e bata novamente por 5 minutos.
+                Em uma tigela ou batedeira, adicione a farinha de trigo e depois misture novamente.
+                Adicione o fermento e misture lentamente com uma colher
+                Leve para o forno, preaquecido a 180° C, por aproximadamente 40 minutos.
+                Para a cobertura despeje em uma tigela a manteiga, o chocolate em pó, o resto do açúcar e o leite, depois misture.
+                Leve a mistura ao fogo médio e continue misturando até obter uma consistência cremosa, depois despeje a calda por cima do bolo.
+            </recipeInstructions>
+            <url>receitas/bolodecenoura.html</url>
+            <imagepath>images/bolodecenoura.jpg</imagepath>
+            <imageurl>images/bolodecenoura.jpg</imageurl>
+        </recipe>
+        <recipe>
+            <name>Brigadeiro</name>
+            <autor>Natália Lopez</autor>
+            <description>Receita tradicional de brigadeiro</description>
+            <recipeCategory>Larica</recipeCategory>
+            <totalTime>15 minutos</totalTime>
+            <recipeYield>serve 3 pessoas</recipeYield>
+            <cookingMethod>cozido</cookingMethod>
+            <nutrition>
+                <calories>450 calorias</calories>
+            </nutrition>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>colher de sopa</unit>
+                <fooditem>manteiga</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>lata</unit>
+                <fooditem>leite condensado</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>4</quantity>
+                <unit>colheres de sopa</unit>
+                <fooditem>chocolate em pó</fooditem>
+            </recipeIngredients>
+            <recipeIngredients>
+                <quantity>1</quantity>
+                <unit>pacote</unit>
+                <fooditem>chocolate granulado</fooditem>
+            </recipeIngredients>
+            <recipeInstructions>
+                Aqueça a panela em fogo médio. Coloque a manteiga seguida do leite consensado na panela.
+                Em seguida acrescente o chocolate em pó e mexa sem parar até que comece a desgrudar do fundo panela.
+                Retire do fogo, espere esfriar um pouco e faça pequenas bolas com a mão passando-as no chocolate granulado.
+            </recipeInstructions>
+            <url>receitas/brigadeiro.html</url>
+            <imagepath>images/brigadeiro.jpg</imagepath>
+            <imageurl>images/brigadeiro.jpg</imageurl>
+        </recipe>
+    </larica>
+</cookbook>
